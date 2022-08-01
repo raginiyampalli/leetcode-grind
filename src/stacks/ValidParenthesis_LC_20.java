@@ -17,10 +17,6 @@ public class ValidParenthesis_LC_20 {
 }
 
 class Solution {
-    /**
-     For every closing bracket, make sure that the last bracket that was opened matches.
-     Maintain list of opening brackets using a stack.
-     */
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
         char[] input = s.toCharArray();
